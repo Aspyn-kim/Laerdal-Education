@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>시뮬레이션 교육 유형 비교</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1f2937;
+      color: #fff;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+    main { max-width: 1100px; margin: 2rem auto; padding: 1rem; }
+    section { margin-bottom: 3rem; }
+    h2 { border-left: 5px solid #2563eb; padding-left: 10px; color: #111827; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 10px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #2563eb;
+      color: #fff;
+      font-weight: 600;
+    }
+    tr:nth-child(even) { background-color: #f3f4f6; }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6b7280;
+      border-top: 1px solid #e5e7eb;
+      background-color: #f9fafb;
+    }
+    @media (max-width: 768px) {
+      body { font-size: 0.9rem; }
+      table { display: block; overflow-x: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>시뮬레이션 교육 유형 비교</h1>
+    <p>Getting Started → Teaching → Refresher → Troubleshooting → Programming → Service</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>📘 1. 개념 요약</h2>
+      <table>
+        <tr><th>구분</th><th>주요 목적</th><th>주요 대상</th><th>핵심 활동</th><th>예시</th></tr>
+        <tr><td>Getting Started With</td><td>기본 사용법 익히기</td><td>신규 사용자 / 초보 교육자</td><td>설치, 연결, 로그인, 첫 시나리오 실행</td><td>SimMan 전원 켜기, LLEAP 연결</td></tr>
+        <tr><td>Teaching With</td><td>교육 운영 방법 이해</td><td>교육자 / 트레이너</td><td>시나리오 기반 수업 운영, 피드백, 평가</td><td>SimMom 분만 교육</td></tr>
+        <tr><td>Refresher On</td><td>숙련도 갱신</td><td>경험자 / 재교육자</td><td>기능 재점검, 업데이트 반영</td><td>LLEAP 기능 복습</td></tr>
+        <tr><td>Troubleshooting</td><td>문제 해결 능력 향상</td><td>기술팀 / ESS</td><td>오류 탐색, 로그 분석, 복구</td><td>SimPad 연결 오류 해결</td></tr>
+        <tr><td>Scenario Programming & Implementation</td><td>시나리오 설계 및 구현</td><td>고급 교육자 / 개발자</td><td>조건 이벤트, 모니터 데이터 설계</td><td>변수 기반 시나리오 코딩</td></tr>
+        <tr><td>Scenario as a Service</td><td>시나리오 서비스화</td><td>교육팀 / 콘텐츠 개발자</td><td>공유, 패키징, 커스터마이징</td><td>맞춤형 ARDS 시나리오</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>🧭 2. 단계별 학습 흐름</h2>
+      <table>
+        <tr><th>단계</th><th>교육 유형</th><th>교육 목표</th></tr>
+        <tr><td>①</td><td>Getting Started With</td><td>기본 사용법 익히기</td></tr>
+        <tr><td>②</td><td>Teaching With</td><td>실제 교육 활용</td></tr>
+        <tr><td>③</td><td>Refresher On</td><td>재점검 및 숙련도 유지</td></tr>
+        <tr><td>④</td><td>Troubleshooting</td><td>자가 해결 능력 강화</td></tr>
+        <tr><td>⑤</td><td>Scenario Programming & Implementation</td><td>고급 설계 및 구현</td></tr>
+        <tr><td>⑥</td><td>Scenario as a Service</td><td>시나리오 서비스화</td></tr>
+      </table>
+      <p style="margin-top:1rem; font-style:italic; color:#374151;">→ 기초 → 활용 → 유지 → 문제 해결 → 창작 → 서비스화 단계로 발전</p>
+    </section>
+
+    <section>
+      <h2>🎯 3. 교육자 관점 활용 포인트</h2>
+      <table>
+        <tr><th>관점</th><th>초급</th><th>중급</th><th>고급</th></tr>
+        <tr><td>기능 중심</td><td>Getting Started</td><td>Refresher / Troubleshooting</td><td>Scenario Programming</td></tr>
+        <tr><td>교육 운영 중심</td><td>Teaching With</td><td>Scenario as a Service</td><td>Implementation & Customization</td></tr>
+        <tr><td>반복 / 자동화 중심</td><td>-</td><td>Scenario as a Service</td><td>Scenario Implementation</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>🧩 4. 실제 예시 (Laerdal 기준)</h2>
+      <table>
+        <tr><th>상황</th><th>추천 교육 유형</th><th>예시 내용</th></tr>
+        <tr><td>신규 교수가 처음 SimMom 사용</td><td>Getting Started With</td><td>전원 켜기, LLEAP 연결, 기본 시나리오 실행</td></tr>
+        <tr><td>교수자가 분만 교육 운영</td><td>Teaching With</td><td>분만 단계별 시뮬레이션, 평가, 피드백</td></tr>
+        <tr><td>기존 사용자가 1년 후 재사용</td><td>Refresher On</td><td>업데이트 반영, 기능 점검</td></tr>
+        <tr><td>세션 중 오류 발생</td><td>Troubleshooting</td><td>로그 확인, LLEAP 재부팅</td></tr>
+        <tr><td>특정 병원 맞춤 시나리오 제작</td><td>Scenario Programming</td><td>조건 이벤트 코드 구현</td></tr>
+        <tr><td>시나리오를 전국 대학 배포</td><td>Scenario as a Service</td><td>콘텐츠 관리 및 배포</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Simulation Education Framework | Designed by Laerdal Education Team
+  </footer>
+</body>
+</html>
